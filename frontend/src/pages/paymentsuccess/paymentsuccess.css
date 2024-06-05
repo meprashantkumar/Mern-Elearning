@@ -1,0 +1,32 @@
+.payment-success-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  background-color: #f5f5f5;
+
+  .success-message {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: #8a4baf;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #8a4baf;
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

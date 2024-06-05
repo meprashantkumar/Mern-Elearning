@@ -1,0 +1,54 @@
+.admin-courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .left {
+    .dashboard-content {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 40px;
+      margin-left: 5px;
+    }
+  }
+
+  .right {
+    .course-form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+
+      h2 {
+        font-size: 24px;
+        color: #8a4baf;
+        margin-bottom: 15px;
+      }
+
+      form {
+        text-align: left;
+
+        label {
+          display: block;
+          margin-bottom: 5px;
+          font-size: 15px;
+          color: #333;
+        }
+
+        input,
+        select {
+          width: 92%;
+          padding: 10px;
+          margin-bottom: 15px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

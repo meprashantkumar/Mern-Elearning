@@ -1,0 +1,18 @@
+.courses {
+  padding: 80px 0;
+  text-align: center;
+  min-height: 60vh;
+
+  h2 {
+    font-size: 32px;
+    color: #8a4baf;
+    margin-bottom: 30px;
+  }
+
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
