@@ -269,7 +269,7 @@ const Lecture = ({ user }) => {
                       }`}
                     >
                       {i + 1}. {e.title}{" "}
-                      {progress &&
+                      {progress[0] &&
                         progress[0].completedLectures.includes(e._id) && (
                           <span
                             style={{
